@@ -1,0 +1,102 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "8a56f9ad-3d00-47ce-b9bf-d47ec82becc9",
+        "name": "REST API",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "8b37f774-94ad-447f-8f6b-334b07a18178",
+        "name": "Date",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {
+            "favoriteFormat": "DD/MM/YYYY"
+        }
+    },
+    "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
+        "id": "51b760af-68e4-4e5b-9c54-3330944c4a59",
+        "name": "NPM",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
+        "publicData": {
+            "packages": [
+                {
+                    "link": "https://github.com/szimek/signature_pad",
+                    "name": "signature_pad",
+                    "version": "5.0.4",
+                    "instanceName": "SignaturePad"
+                },
+                {
+                    "link": "https://fengyuanchen.github.io/compressorjs",
+                    "name": "compressorjs",
+                    "version": "1.2.1",
+                    "instanceName": "imageResize"
+                },
+                {
+                    "link": "https://chartjs-plugin-datalabels.netlify.app",
+                    "name": "chartjs-plugin-datalabels",
+                    "version": "2.2.0",
+                    "instanceName": "chartDataLabels"
+                },
+                {
+                    "link": "https://github.com/lindell/JsBarcode#readme",
+                    "name": "jsbarcode",
+                    "version": "3.11.6",
+                    "instanceName": "barCode"
+                }
+            ]
+        }
+    },
+    "d66a250d-8468-469e-ad33-ee028f632398": {
+        "id": "3c1229c5-16e3-412a-8671-4819a698987d",
+        "name": "OpenAI",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "d66a250d-8468-469e-ad33-ee028f632398",
+        "publicData": {}
+    },
+    "f5856798-485d-47be-b433-d43d771c64e1": {
+        "id": "896d3b95-2a6a-4fae-9a6c-477483bf31b5",
+        "name": "Xano Auth",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "f5856798-485d-47be-b433-d43d771c64e1",
+        "publicData": {
+            "domain": "xnso-sxc0-yiuf.b2.xano.io",
+            "xBranchProd": "test",
+            "getMeEndpoint": "https://xnso-sxc0-yiuf.b2.xano.io/api:Rm6AUzRl/auth/me",
+            "loginEndpoint": "https://xnso-sxc0-yiuf.b2.xano.io/api:Rm6AUzRl/auth/login",
+            "xBranchEditor": "test",
+            "signupEndpoint": "https://xnso-sxc0-yiuf.b2.xano.io/api:Rm6AUzRl/auth/signup/athlete",
+            "xBranchStaging": "test",
+            "socialProviders": {},
+            "xDataSourceProd": "test",
+            "xDataSourceEditor": "test",
+            "xDataSourceStaging": "test"
+        }
+    },
+    "cd33cf33-e29f-4e8c-ac26-b997fe507ce7": {
+        "id": "731a7bd0-2639-4b64-8ccb-1fda4bfd01ef",
+        "name": "Xano",
+        "designId": "6ebb6f5a-4837-40eb-b631-3ca808d50e8a",
+        "pluginId": "cd33cf33-e29f-4e8c-ac26-b997fe507ce7",
+        "publicData": {
+            "domain": "xnso-sxc0-yiuf.b2.xano.io",
+            "xBranchProd": "test",
+            "globalHeaders": [
+                {
+                    "key": "Authentication",
+                    "value": {
+                        "code": "pluginVariables['f5856798-485d-47be-b433-d43d771c64e1']['accessToken']",
+                        "__wwtype": "f"
+                    }
+                }
+            ],
+            "xBranchEditor": "test",
+            "xBranchStaging": "test",
+            "xDataSourceProd": "test",
+            "xDataSourceEditor": "test",
+            "xDataSourceStaging": "test"
+        }
+    }
+}
